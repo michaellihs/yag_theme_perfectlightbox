@@ -14,11 +14,8 @@ plugin.tx_yag.settings.themes.perfectLightbox < plugin.tx_yag.settings.themes.de
 # Some theme-specific settings
 plugin.tx_yag.settings.themes.perfectLightbox {
 
-   # We do not want to have paging
-   itemList.itemsPerPage = 0
-
-   #includeLibJS = jQuery,jQueryShadowBox
-   #includeLibCSS = jQueryShadowBox
+   # We want to have 12 items / page
+   itemList.itemsPerPage = 12
 
    resolutionConfigs {
    
@@ -29,8 +26,8 @@ plugin.tx_yag.settings.themes.perfectLightbox {
       }
       
       lightbox {
-         maxW = 1200
-         maxH = 800
+         maxW = 800
+         maxH = 600
       }
       
    }
