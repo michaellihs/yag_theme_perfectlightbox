@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'author_email' => 'info@yag-gallery.de',
 	'author_company' => 'yag-gallery.de',
 	'shy' => '',
-	'dependencies' => 'cms,extbase,fluid,perfectlightbox',
+	'dependencies' => 'cms,extbase,fluid,perfectlightbox,yag',
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
@@ -34,6 +34,7 @@ $EM_CONF[$_EXTKEY] = array(
 			'extbase' => '',
 			'fluid' => '',
             'perfectlightbox' => '3.1.3',
+            'yag' => '1.1.6',
 		),
 		'conflicts' => array(
 		),
