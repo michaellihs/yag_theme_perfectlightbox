@@ -9,7 +9,7 @@
 <f:if condition="{image.width} == {image.height}">
     <div class="tx-yag-theme-perfectlightbox-thumb tx-yag-theme-perfectlightbox-thumb-square">
 </f:if>
-    <a href="{yag:resource.image(item: image, resolutionName: 'lightbox')}" rel="shadowbox[images_{image.album.uid}]" title="{image.title}"> 
+    <a href="{yag:resource.image(item: image, resolutionName: 'lightbox')}"title="{image.title}" rel="lightbox[lb{image.album.uid}]"> 
         <yag:image item="{image}" resolutionName="thumb" alt="{image.title}"/>
     </a>
     <ul>
