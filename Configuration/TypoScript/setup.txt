@@ -23,20 +23,14 @@ plugin.tx_yag.settings.themes.perfectLightbox {
       thumb >
    
       thumb {
-         # Use this setting if you want to preserve your images' side ratios
-         maxW = 200
-         maxH = 200
+         # Use this settings if you want to preserve your images' side ratios
+         # maxW = 200
+         # maxH = 200
          
-         # Comment out the settings above and use following settings if you want to have images cropped to square
+         # Use following settings if you want to have images cropped to square
          # Remember to change CSS settings in EXT:/yag_theme_perfectlightbox/Resources/Public/CSS/styles.css for correct rendering in frontend!
-         #width = 200c
-         #height = 200c
-      }
-      
-      
-      t3dd {
-        width = 100c
-        height = 100c
+         width = 200c
+         height = 200c
       }
       
       # We override any existing settings for this resolution
