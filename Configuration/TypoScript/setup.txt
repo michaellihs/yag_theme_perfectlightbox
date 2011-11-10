@@ -33,6 +33,12 @@ plugin.tx_yag.settings.themes.perfectLightbox {
          #height = 200c
       }
       
+      
+      t3dd {
+        width = 100c
+        height = 100c
+      }
+      
       # We override any existing settings for this resolution
       lightbox >
       

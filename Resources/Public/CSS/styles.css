@@ -36,14 +36,14 @@ div.tx-yag-theme-perfectlightbox-thumb img {
 }
 
 div.tx-yag-theme-perfectlightbox-thumb-landscape img {
-    height: 133px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     margin: 33px 0;
 }
 
 div.tx-yag-theme-perfectlightbox-thumb-portrait img {
-    height: 200px; 
-    width: 133px;
+    height: 100px; 
+    width: 100px;
     margin: 0 33px;
 }
 

@@ -12,8 +12,15 @@
     <a href="{yag:resource.image(item: image, resolutionName: 'lightbox')}"
        title="{image.title} - {image.description}" 
        rel="lightbox[lb{image.album.uid}]"> 
+        <yag:image item="{image}" resolutionName="t3dd" alt="{image.title}"/>
+    </a>
+    
+    <a href="{yag:resource.image(item: image, resolutionName: 'lightbox')}"
+       title="{image.title} - {image.description}" 
+       rel="lightbox[lb{image.album.uid}]"> 
         <yag:image item="{image}" resolutionName="thumb" alt="{image.title}"/>
     </a>
+    
     <ul>
         <li class="tx-yag-theme-perfectlightbox-thumb-title">{image.title}</li>
     </ul>
